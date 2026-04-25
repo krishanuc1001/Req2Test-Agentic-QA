@@ -305,7 +305,7 @@ python -m evals.run_evals
 
 ## Deployment
 
-This app deploys for **free** to multiple platforms from the same repo. Full step-by-step guide in **[DEPLOYMENT.md](DEPLOYMENT.md)**.
+This app deploys for **free** to multiple platforms from the same repo.
 
 | Platform | Free tier | Best for |
 |---|---|---|
