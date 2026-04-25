@@ -1,0 +1,29 @@
+[
+  {
+    "id": "password_reset",
+    "requirement": "As a registered user, I want to reset my password via email so that I can regain access when I forget it.\n\nAcceptance Criteria:\n- Email must be valid and registered in the system\n- Reset link expires after 30 minutes\n- New password must meet complexity policy\n- User is notified via email on successful reset",
+    "expected_coverage": {
+      "must_have_categories": ["Positive", "Negative", "Boundary", "Security"],
+      "must_have_keywords": ["expired", "complexity", "invalid email", "rate limit", "token reuse"],
+      "min_test_cases": 8
+    }
+  },
+  {
+    "id": "checkout_discount",
+    "requirement": "As a shopper, I want to apply a discount code at checkout so that I can reduce my order total.\n\nAcceptance Criteria:\n- Code must be active and within valid date range\n- Code can only be applied once per order\n- Discount is shown as a separate line item\n- Expired or invalid codes show an inline error",
+    "expected_coverage": {
+      "must_have_categories": ["Positive", "Negative", "Boundary"],
+      "must_have_keywords": ["expired", "case", "stacking", "currency", "rounding"],
+      "min_test_cases": 8
+    }
+  },
+  {
+    "id": "file_upload_avatar",
+    "requirement": "As a user, I want to upload a profile picture so that my account feels personalized.\n\nAcceptance Criteria:\n- Accepts PNG, JPG, WEBP up to 5 MB\n- Rejects other formats with a clear error\n- Image is cropped to a square preview before save\n- A11y: input is keyboard-accessible and labeled",
+    "expected_coverage": {
+      "must_have_categories": ["Positive", "Negative", "Boundary", "Security", "Accessibility"],
+      "must_have_keywords": ["mime", "size", "executable", "screen reader", "keyboard"],
+      "min_test_cases": 9
+    }
+  }
+]
