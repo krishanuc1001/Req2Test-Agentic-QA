@@ -139,7 +139,7 @@ src/
 
 ## Installation
 
-### Prerequisites
+### Pre-requisites
 
 - Python **3.11** (pinned via `.python-version` and `runtime.txt`; works on 3.10+ locally)
 - A **Groq** or **Gemini** API key
@@ -160,12 +160,12 @@ cd agentic-qa-suite
 python -m venv .venv
 ```
 
-# Windows
+### Windows
 ```zsh
 .venv\Scripts\activate
 ```
 
-# macOS / Linux
+### macOS / Linux
 ```zsh
 source .venv/bin/activate
 ```
