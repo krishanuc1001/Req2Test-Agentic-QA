@@ -1,4 +1,5 @@
 import os
+
 import streamlit as st
 from langchain_groq import ChatGroq
 
@@ -61,4 +62,4 @@ class GroqLLM:
                 timeout=60,
             )
         except Exception as e:
-            raise ValueError(f"Error configuring Groq LLM: {e}")
+            raise ValueError(f"Error configuring Groq LLM: {e}") from e

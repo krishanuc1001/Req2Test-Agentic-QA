@@ -16,7 +16,7 @@ non-breaking.
 """
 from __future__ import annotations
 
-from typing import List, Literal, Optional
+from typing import List, Literal
 
 try:
     from pydantic import BaseModel, Field

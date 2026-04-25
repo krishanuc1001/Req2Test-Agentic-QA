@@ -1,4 +1,5 @@
 import os
+
 import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 
@@ -58,4 +59,4 @@ class GeminiLLM:
                 timeout=60,
             )
         except Exception as e:
-            raise ValueError(f"Error configuring Gemini LLM: {e}")
+            raise ValueError(f"Error configuring Gemini LLM: {e}") from e

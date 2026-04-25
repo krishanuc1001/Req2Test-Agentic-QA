@@ -17,12 +17,14 @@ def test_requirement_analysis_minimal():
 
 
 def test_test_case_category_enforced():
-    with pytest.raises(Exception):
+    from pydantic import ValidationError
+    with pytest.raises(ValidationError):
         TestCase(id="TC-001", title="t", category="Random", gherkin="Scenario: x")
 
 
 def test_triage_row_priority_enforced():
-    with pytest.raises(Exception):
+    from pydantic import ValidationError
+    with pytest.raises(ValidationError):
         TriageRow(
             test_id="TC-001", priority="P9", risk="High",
             automation_feasibility="High", recommended_tool="Playwright",

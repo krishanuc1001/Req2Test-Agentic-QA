@@ -1,7 +1,7 @@
 import os
 import uuid
-import streamlit as st
 
+import streamlit as st
 
 # Per-node user-friendly status labels for the streaming progress UX (Gap #14).
 NODE_STATUS_LABELS = {
