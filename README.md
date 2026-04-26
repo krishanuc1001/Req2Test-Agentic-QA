@@ -1,13 +1,14 @@
-# 🤖 QA Intelligence Suite — Stateful Agentic AI
+# 🤖 Req2Test — Intelligent Requirement-to-Test Transformation
 
-A *production-shaped* prototype of a **multi-agent QA workflow** built on **LangGraph** that turns a raw user story into a fully reasoned, web-grounded test plan in one click.
+A *production-shaped* prototype of a **multi-agent QA workflow** built on **LangGraph** using **Stateful** agentic AI capabilities - that transforms raw user stories into effective & prioritized test suites in minutes.
+**Req2Test** chains three specialized AI agents— **Requirement Analyzer**, **Test Case Generator**, and **Test Case Reviewer** — to produce comprehensive Gherkin scenarios, triage matrices, and citations to industry best practices (OWASP, RFC, tool recommendations).
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-Multi--Agent-blue)
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-red)
 ![Deploy](https://img.shields.io/badge/Deploy-Streamlit%20Cloud%20%7C%20HF%20Spaces%20%7C%20Docker-green)
 
-> **⚠️ Honest scope note** — this is a *demo-grade* prototype that uses production-style patterns (typed state, tool-binding, structured logging, CI). It is **not** a hardened production system: human review of every generated test suite is expected, and the limitations listed in [Known Limitations & Roadmap](#known-limitations--roadmap) are real.
+> **⚠️ Honest scope note** — this is a *demo-grade* prototype that uses production-style patterns (typed state, tool-binding, structured logging, CI). It is **not** a hardened production system: human review of every generated test suite is expected.
 
 ---
 
@@ -28,7 +29,6 @@ A *production-shaped* prototype of a **multi-agent QA workflow** built on **Lang
 - [Testing & evaluation](#testing--evaluation)
 - [Tech stack](#tech-stack)
 - [Deployment](#deployment)
-- [Known Limitations & Roadmap](#known-limitations--roadmap)
 - [License](#license)
 
 ---
