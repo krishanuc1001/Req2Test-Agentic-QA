@@ -69,7 +69,7 @@ This app is deployed using **free** tier to the platforms below from the same re
 | Platform                  | Free tier              | Link                            |
 | ------------------------- | ---------------------- | ------------------------------- |
 | Streamlit Community Cloud | Unlimited public apps  | https://req2test.streamlit.app/ |
-| Hugging Face Spaces       | 16 GB RAM (Docker SDK) |
+| Hugging Face Spaces       | 16 GB RAM (Docker SDK) | https://huggingface.co/spaces/Krish1001/Req2Test |
 
 ---
 
