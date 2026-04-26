@@ -106,7 +106,7 @@ class LoadStreamlitUI:
                 key="qa_requirement_input",
             )
 
-            if st.button("🚀 Run Multi-Agent QA Workflow", use_container_width=True):
+            if st.button("🚀 Transform", use_container_width=True):
                 if requirement_text and requirement_text.strip():
                     st.session_state.IsQAGenerateClicked = True
                     st.session_state.qa_requirement_text = requirement_text.strip()

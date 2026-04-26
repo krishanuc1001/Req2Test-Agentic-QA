@@ -76,7 +76,7 @@ def load_langgraph_agentic_app():
     if not st.session_state.get("IsQAGenerateClicked"):
         st.info(
             "👈 Configure the LLM in the sidebar, paste a user story / "
-            "requirement, then click **Run Multi-Agent QA Workflow**."
+            "requirement, then click **Transform**."
         )
         return
 
